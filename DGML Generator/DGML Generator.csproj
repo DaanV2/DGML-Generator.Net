@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,5 +83,21 @@
       <Name>DGML Generator Library</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LICENSE.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>rd /s /q "$(TargetDir)"
+rd /s /q "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release (
+if not exist "$(SolutionDir)Releases\" mkdir "$(SolutionDir)Releases\"
+if not exist "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\" mkdir "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
+copy "$(TargetDir)" "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
+)</PostBuildEvent>
+  </PropertyGroup>
 </Project>

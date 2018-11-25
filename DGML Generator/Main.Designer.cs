@@ -1,4 +1,4 @@
-﻿namespace DGML_Generator
+﻿namespace DGMLGenerator
 {
     partial class Form1
     {
