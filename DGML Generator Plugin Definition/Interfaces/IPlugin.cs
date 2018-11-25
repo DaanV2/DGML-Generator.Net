@@ -25,7 +25,7 @@ namespace DGMLGenerator.Plugin.Definition
     public interface IPlugin
     {
         /// <summary>TODO</summary>
-        /// <param name="Contenxt"></param>
-        void SetInfo(IPluginContext Contenxt);
+        /// <returns></returns>
+        List<IPluginContext> GetIPluginContext();
     }
 }

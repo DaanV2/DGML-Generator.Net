@@ -41,18 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Link\Link - Initialize.cs" />
+    <Compile Include="Classes\Link\Link - Properties.cs" />
+    <Compile Include="Classes\Link\Link - Variables.cs" />
+    <Compile Include="Classes\Node\Node - Initialize.cs" />
+    <Compile Include="Classes\Node\Node - Properties.cs" />
+    <Compile Include="Classes\Node\Node - Variables.cs" />
     <Compile Include="Enumerators\Enumerators.cs" />
     <Compile Include="Interfaces\ICodeProcessor.cs" />
     <Compile Include="Interfaces\IDGMLBuilder.cs" />
-    <Compile Include="Interfaces\Ilink.cs" />
-    <Compile Include="Interfaces\INode.cs" />
     <Compile Include="Interfaces\IPlugin.cs" />
     <Compile Include="Interfaces\IPluginContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Overview.cd" />
     <None Include="Overview.dgml" />

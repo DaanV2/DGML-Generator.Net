@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DGMLBuilder\DGML Builder - Initialize.cs" />
+    <Compile Include="Classes\DGMLBuilder\DGML Builder - Properties.cs" />
+    <Compile Include="Classes\DGMLBuilder\DGML Builder - DGMLBuilder.cs" />
+    <Compile Include="Classes\DGMLBuilder\DGML Builder - Variables.cs" />
+    <Compile Include="Classes\DGMLConfiguration\DGMLConfiguration - Initialize.cs" />
+    <Compile Include="Classes\DGMLConfiguration\DGMLConfiguration - Properties.cs" />
+    <Compile Include="Classes\DGMLConfiguration\DGMLConfiguration - Variables.cs" />
+    <Compile Include="Classes\Plugin Settings\Plugin Settings - Initialize.cs" />
+    <Compile Include="Classes\Plugin Settings\Plugin Settings - Properties.cs" />
+    <Compile Include="Classes\Plugin Settings\Plugin Settings - Variables.cs" />
+    <Compile Include="Delegates\Delegates.cs" />
     <Compile Include="modules\ConfigHandling.Net\Abstract Classes\Config\Config - Function.cs" />
     <Compile Include="modules\ConfigHandling.Net\Abstract Classes\Config\Config - Initialize.cs" />
     <Compile Include="modules\ConfigHandling.Net\Abstract Classes\Config\Config - Properties.cs" />
@@ -85,6 +96,14 @@
       <DependentUpon>UniversalEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Static Classes\Code Processors Collector\Code Processors Collector - Initialize.cs" />
+    <Compile Include="Static Classes\Code Processors Collector\Code Processors Collector - Properties.cs" />
+    <Compile Include="Static Classes\Code Processors Collector\Code Processors Collector - Function.cs" />
+    <Compile Include="Static Classes\Code Processors Collector\Code Processors Collector - Variables.cs" />
+    <Compile Include="Static Classes\Message Handler\Message Handler - Initialize.cs" />
+    <Compile Include="Static Classes\Message Handler\Message Handler - Properties.cs" />
+    <Compile Include="Static Classes\Message Handler\Message Handler - Events.cs" />
+    <Compile Include="Static Classes\Message Handler\Message Handler - Function.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="modules\Universal-Editor.Net\UserControls\PropertyGridEditor.resx">
@@ -95,6 +114,13 @@
     <EmbeddedResource Include="LICENSE.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DGML Generator Plugin Definition\DGML Generator Plugin Definition.csproj">
+      <Project>{d2f5b62f-072d-43af-8f9b-13334529b676}</Project>
+      <Name>DGML Generator Plugin Definition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

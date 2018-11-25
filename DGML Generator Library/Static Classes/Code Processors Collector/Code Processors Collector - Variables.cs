@@ -19,23 +19,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DGMLGenerator.Plugin.Definition
+//TODO prune namespace: DGMLGenerator
+namespace DGMLGenerator
 {
-    /// <summary>TODO</summary>
-    public interface IDGMLBuilder
+    public static partial class CodeProcessorsCollector
     {
-        /// <summary>TODO</summary>
-        Node GetNode(string ID);
-
-        /// <summary>TODO</summary>
-        /// <param name="N"></param>
-        void SetNode(Node N);
-        
-        /// <summary>TODO</summary>
-        Link GetLink(string ID);
-
-        /// <summary>TODO</summary>
-        /// <param name="N"></param>
-        void SetLink(Link L);
+        //TODO add variables to class CodeProcessors
     }
 }

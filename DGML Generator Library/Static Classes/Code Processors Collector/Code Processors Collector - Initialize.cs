@@ -18,19 +18,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DGMLGenerator.Plugin.Definition;
+using ThreadSafeDictionary;
 
-namespace DGMLGenerator.Plugin.Definition
+//TODO prune namespace: DGMLGenerator
+namespace DGMLGenerator
 {
-    /// <summary>TODO</summary>
-    public interface INode
+    /// <summary>TODO add description for class: CodeProcessors</summary>
+    public static partial class CodeProcessorsCollector
     {
-        /// <summary>TODO</summary>
-        string Label { get; set; }
-
-        /// <summary>TODO</summary>
-        string ID { get; set; }
-
-        /// <summary>TODO</summary>
-        NodeType NodeType { get; set; }
+        /// <summary>Creates a new instance of <see cref="CodeProcessors"/></summary>
+        static CodeProcessorsCollector()
+        {
+            CodeProcessorsCollector.CodeProcessors = new ThreadSafeDictionary<string, ICodeProcessor>();
+            CodeProcessorsCollector.Plugins = new List<System.Reflection.Assembly>();
+        }
     }
 }

@@ -16,18 +16,21 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using DGMLGenerator.Plugin.Definition;
+using ThreadSafeDictionary;
 
-namespace DGMLGenerator.Plugin.Definition
+//TODO prune namespace: DGMLGenerator
+namespace DGMLGenerator
 {
-    /// <summary>TODO</summary>
-    public interface ILink
+    public static partial class CodeProcessorsCollector
     {
         /// <summary>TODO</summary>
-        string Label { get; set; }
+        static public ThreadSafeDictionary<string, ICodeProcessor> CodeProcessors { get; set; }
 
         /// <summary>TODO</summary>
-        LinkType LinkType { get; set; }
+        static public List<Assembly> Plugins { get; set; }
     }
 }
