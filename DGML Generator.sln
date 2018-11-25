@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGML Generator", "DGML Generator\DGML Generator.csproj", "{018F76AA-E345-47E8-9929-70FDF2EADA97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGML Generator Library", "DGML Generator Library\DGML Generator Library.csproj", "{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGML Generator Plugin Definition", "DGML Generator Plugin Definition\DGML Generator Plugin Definition.csproj", "{D2F5B62F-072D-43AF-8F9B-13334529B676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{018F76AA-E345-47E8-9929-70FDF2EADA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018F76AA-E345-47E8-9929-70FDF2EADA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018F76AA-E345-47E8-9929-70FDF2EADA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F5B62F-072D-43AF-8F9B-13334529B676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F5B62F-072D-43AF-8F9B-13334529B676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F5B62F-072D-43AF-8F9B-13334529B676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F5B62F-072D-43AF-8F9B-13334529B676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+[submodule "DGML Generator Library/modules/Universal-Editor.Net"]
+	path = DGML Generator Library/modules/Universal-Editor.Net
+	url = https://github.com/DaanV2/Universal-Editor.Net.git
+[submodule "DGML Generator Library/modules/ConfigHandling.Net"]
+	path = DGML Generator Library/modules/ConfigHandling.Net
+	url = https://github.com/DaanV2/ConfigHandling.Net.git
+[submodule "DGML Generator Library/modules/IconHandling.Net"]
+	path = DGML Generator Library/modules/IconHandling.Net
+	url = https://github.com/DaanV2/IconHandling.Net.git
+[submodule "DGML Generator Library/modules/ThreadSafeDictionary.Net"]
+	path = DGML Generator Library/modules/ThreadSafeDictionary.Net
+	url = https://github.com/DaanV2/ThreadSafeDictionary.Net.git
