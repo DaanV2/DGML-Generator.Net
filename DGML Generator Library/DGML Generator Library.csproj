@@ -7,7 +7,7 @@
     <ProjectGuid>{3F85B877-3FE2-4ABD-88CA-968CFFCF54FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DGML_Generator_Library</RootNamespace>
+    <RootNamespace>DGMLGenerator</RootNamespace>
     <AssemblyName>DGML Generator Library</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,7 +47,6 @@
     <Compile Include="modules\ConfigHandling.Net\Abstract Classes\Config\Config - Initialize.cs" />
     <Compile Include="modules\ConfigHandling.Net\Abstract Classes\Config\Config - Properties.cs" />
     <Compile Include="modules\ConfigHandling.Net\Interface\IConfig.cs" />
-    <Compile Include="modules\ConfigHandling.Net\Properties\AssemblyInfo.cs" />
     <Compile Include="modules\ConfigHandling.Net\Static Classes\Config Loader\Config Loader.cs" />
     <Compile Include="modules\ConfigHandling.Net\Static Classes\Config Mapper\Config Mapper - Function.cs" />
     <Compile Include="modules\ConfigHandling.Net\Static Classes\Config Mapper\Config Mapper - Get and Set.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="modules\ConfigHandling.Net\Static Classes\Config Options\Config Options - Save and Load.cs" />
     <Compile Include="modules\IconHandling.Net\Classes\Icon Mapper Config - Initialize.cs" />
     <Compile Include="modules\IconHandling.Net\Classes\Icon Mapper Config - Properties.cs" />
-    <Compile Include="modules\IconHandling.Net\Properties\AssemblyInfo.cs" />
     <Compile Include="modules\IconHandling.Net\Static Classes\Icon Mapper - Add.cs" />
     <Compile Include="modules\IconHandling.Net\Static Classes\Icon Mapper - Create.cs" />
     <Compile Include="modules\IconHandling.Net\Static Classes\Icon Mapper - Get.cs" />
@@ -69,16 +69,18 @@
     <Compile Include="modules\ThreadSafeDictionary.Net\Classes\Thread Safe Dictionary\Thread Safe Dictionary - Get and Set.cs" />
     <Compile Include="modules\ThreadSafeDictionary.Net\Classes\Thread Safe Dictionary\Thread Safe Dictionary - Initialize.cs" />
     <Compile Include="modules\ThreadSafeDictionary.Net\Classes\Thread Safe Dictionary\Thread Safe Dictionary - Remove.cs" />
-    <Compile Include="modules\ThreadSafeDictionary.Net\Properties\AssemblyInfo.cs" />
     <Compile Include="modules\Universal-Editor.Net\Classes\Editor Type Attribute.cs" />
     <Compile Include="modules\Universal-Editor.Net\Delegates\General.cs" />
     <Compile Include="modules\Universal-Editor.Net\Interfaces\IEditor.cs" />
-    <Compile Include="modules\Universal-Editor.Net\Properties\AssemblyInfo.cs" />
-    <Compile Include="modules\Universal-Editor.Net\UserControls\PropertyGridEditor.cs" />
+    <Compile Include="modules\Universal-Editor.Net\UserControls\PropertyGridEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="modules\Universal-Editor.Net\UserControls\PropertyGridEditor.Designer.cs">
       <DependentUpon>PropertyGridEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="modules\Universal-Editor.Net\UserControls\UniversalEditor.cs" />
+    <Compile Include="modules\Universal-Editor.Net\UserControls\UniversalEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="modules\Universal-Editor.Net\UserControls\UniversalEditor.Designer.cs">
       <DependentUpon>UniversalEditor.cs</DependentUpon>
     </Compile>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @11 Member=Class)" Category="CodeSchema_Field" Bounds="1446.12,40,67.6299999999974,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Class" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Class" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=27 StartCharacterOffset=8 EndLineNumber=27 EndCharacterOffset=13)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Field)" Category="CodeSchema_Field" Bounds="1350.10333333334,40,66.0166666666664,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Field" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Field" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=25 StartCharacterOffset=8 EndLineNumber=25 EndCharacterOffset=13)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Method)" Category="CodeSchema_Field" Bounds="1350.10333333334,96,83.006666666668,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Method" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Method" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=21 StartCharacterOffset=8 EndLineNumber=21 EndCharacterOffset=14)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Namespace)" Category="CodeSchema_Field" Bounds="1468.97,152,102.77,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Namespace" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Namespace" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=33 StartCharacterOffset=8 EndLineNumber=33 EndCharacterOffset=17)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Object)" Category="CodeSchema_Field" Bounds="1543.75,40,75.8933333333334,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Object" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Object" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=31 StartCharacterOffset=8 EndLineNumber=31 EndCharacterOffset=14)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Property)" Category="CodeSchema_Field" Bounds="1463.11,96,86.2999999999993,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Property" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Property" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=23 StartCharacterOffset=8 EndLineNumber=23 EndCharacterOffset=16)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 Member=Structure)" Category="CodeSchema_Field" Bounds="1350.10333333334,152,88.8666666666686,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Structure" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Structure" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=29 StartCharacterOffset=8 EndLineNumber=29 EndCharacterOffset=17)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @6 Member=ID)" Category="CodeSchema_Property" Bounds="1149.51312674725,-4.4157890059136,91.876666666667,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ID" Icon="Microsoft.VisualStudio.Property.Public" Label="ID : string" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/INode.cs&quot; StartLineNumber=15 StartCharacterOffset=15 EndLineNumber=15 EndCharacterOffset=17)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @6 Member=Label)" Category="CodeSchema_Property" Bounds="1149.51315278891,51.5842121492864,108.263333333336,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Label" Icon="Microsoft.VisualStudio.Property.Public" Label="Label : string" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/INode.cs&quot; StartLineNumber=12 StartCharacterOffset=15 EndLineNumber=12 EndCharacterOffset=20)" UseManualLocation="True" />
+    <Node Id="(@1 @2 Type=ILink Member=Label)" Category="CodeSchema_Property" Bounds="1169.16832674961,196.741995709519,108.263333333336,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Label" Icon="Microsoft.VisualStudio.Property.Public" Label="Label : string" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/Ilink.cs&quot; StartLineNumber=12 StartCharacterOffset=15 EndLineNumber=12 EndCharacterOffset=20)" UseManualLocation="True" />
+    <Node Id="(@1 @2 Type=IPluginContext Member=FileExtensions)" Category="CodeSchema_Property" Bounds="491.32918405232,118.295710142571,187.98,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="FileExtensions" Icon="Microsoft.VisualStudio.Property.Public" Label="FileExtensions : List&lt;string&gt;" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IPluginContext.cs&quot; StartLineNumber=12 StartCharacterOffset=21 EndLineNumber=12 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="(@1 @2 Type=LinkType Member=Call)" Category="CodeSchema_Field" Bounds="1361.79801654304,247.445035287707,60.3499999999985,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Call" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Call" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=14 StartCharacterOffset=8 EndLineNumber=14 EndCharacterOffset=12)" UseManualLocation="True" />
+    <Node Id="(@1 @2 Type=LinkType Member=Child)" Category="CodeSchema_Field" Bounds="1361.79801654304,303.445035307707,68.0999999999985,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Child" Icon="Microsoft.VisualStudio.EnumMember.Public" Label="Child" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=12 StartCharacterOffset=8 EndLineNumber=12 EndCharacterOffset=13)" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Enum" Bounds="0,275,107.073464746667,25.0149760256" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="LinkType" Group="Collapsed" Icon="Microsoft.VisualStudio.Enum.Public" Label="LinkType" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=9 StartCharacterOffset=16 EndLineNumber=9 EndCharacterOffset=24)" />
+    <Node Id="@12" Category="CodeSchema_Enum" Bounds="137.980065706667,275.0074880128,115.113333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="NodeType" Group="Collapsed" Icon="Microsoft.VisualStudio.Enum.Public" Label="NodeType" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Enumerators/Enumerators.cs&quot; StartLineNumber=18 StartCharacterOffset=16 EndLineNumber=18 EndCharacterOffset=24)" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="317.667991061349,146.054427156979,195.190000000002,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="SetInfo" Icon="Microsoft.VisualStudio.Method.Public" Label="SetInfo(IPluginContext) : void" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IPlugin.cs&quot; StartLineNumber=13 StartCharacterOffset=13 EndLineNumber=13 EndCharacterOffset=20)" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="949.322798864943,122.24697693374,159.940000000002,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="GetLink" Icon="Microsoft.VisualStudio.Method.Public" Label="GetLink(string) : INode" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IDGMLBuilder.cs&quot; StartLineNumber=15 StartCharacterOffset=14 EndLineNumber=15 EndCharacterOffset=21)" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="949.322818396194,178.24697703054,167.979999999999,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="GetNode" Icon="Microsoft.VisualStudio.Method.Public" Label="GetNode(string) : INode" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IDGMLBuilder.cs&quot; StartLineNumber=12 StartCharacterOffset=14 EndLineNumber=12 EndCharacterOffset=21)" UseManualLocation="True" />
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="673.479581690847,148.227928698114,247.293333333335,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ProcessFile" Icon="Microsoft.VisualStudio.Method.Public" Label="ProcessFile(string, IDGMLBuilder) : void" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/ICodeProcessor.cs&quot; StartLineNumber=14 StartCharacterOffset=13 EndLineNumber=14 EndCharacterOffset=24)" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Property" Bounds="491.32809030232,174.295710181771,211.239999999998,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CodeProcessor" Icon="Microsoft.VisualStudio.Property.Public" Label="CodeProcessor : ICodeProcessor" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IPluginContext.cs&quot; StartLineNumber=15 StartCharacterOffset=23 EndLineNumber=15 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@19" Category="CodeSchema_Property" Bounds="1169.16831372877,252.741995760719,142.32,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="LinkType" Icon="Microsoft.VisualStudio.Property.Public" Label="LinkType : LinkType" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/Ilink.cs&quot; StartLineNumber=15 StartCharacterOffset=17 EndLineNumber=15 EndCharacterOffset=25)" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Property" Bounds="1149.51317883058,107.584213304486,158.400000000001,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="NodeType" Icon="Microsoft.VisualStudio.Property.Public" Label="NodeType : NodeType" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/INode.cs&quot; StartLineNumber=18 StartCharacterOffset=17 EndLineNumber=18 EndCharacterOffset=25)" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Interface" Bounds="123.971732373333,110,143.13,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ICodeProcessor" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="ICodeProcessor" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/ICodeProcessor.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=35)" />
+    <Node Id="@4" Category="CodeSchema_Interface" Bounds="128.40339904,165,134.266666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IDGMLBuilder" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="IDGMLBuilder" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IDGMLBuilder.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=33)" />
+    <Node Id="@5" Category="CodeSchema_Interface" Bounds="32.7850657066667,220,85.5033333333331,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ILink" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="ILink" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/Ilink.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=26)" />
+    <Node Id="@7" Category="CodeSchema_Interface" Bounds="148.765065706667,220,93.5433333333331,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="INode" ContainsChildren="True" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="INode" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/INode.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=26)" />
+    <Node Id="@8" Category="CodeSchema_Interface" Bounds="146.850065706666,0,97.3733333333335,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IPlugin" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="IPlugin" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IPlugin.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=28)" />
+    <Node Id="@9" Category="CodeSchema_Interface" Bounds="126.266732373333,55,138.54,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IPluginContext" Group="Collapsed" Icon="Microsoft.VisualStudio.Interface.Public" Label="IPluginContext" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/Interfaces/IPluginContext.cs&quot; StartLineNumber=9 StartCharacterOffset=21 EndLineNumber=9 EndCharacterOffset=35)" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="(@1 @2 Type=LinkType Member=Call)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 Type=LinkType Member=Child)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Class)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Field)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Method)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Namespace)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Object)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Property)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=Structure)" Category="Contains" />
+    <Link Source="@13" Target="@9" Bounds="-8712.59972240776,-9886.17780994481,36.2186985838125,62.2227318198056" />
+    <Link Source="@15" Target="@7" Bounds="1043.663359375,87.0682945829793,49.0657740370548,3.72321584092461" />
+    <Link Source="@16" Target="@5" Bounds="789.812569270506,350,195.534315768921,62.2488288128296" />
+    <Link Source="@17" Target="@4" Bounds="813.723815104167,302.361633451026,99.4718324104956,2.9595505866622" />
+    <Link Source="@18" Target="@3" Bounds="-9316.22143326175,-9913.9560546875,523.761561278581,200.233541336009" />
+    <Link Source="@19" Target="@10" Bounds="1272.06380859375,308.4265409375,149.838753771283,20.0510191800314" />
+    <Link Source="@20" Target="@12" Bounds="1256.83677170115,137.008996701983,64.5002845098327,14.9911032980171" />
+    <Link Source="@3" Target="@17" Category="Contains" />
+    <Link Source="@4" Target="@15" Category="Contains" />
+    <Link Source="@4" Target="@16" Category="Contains" />
+    <Link Source="@5" Target="(@1 @2 Type=ILink Member=Label)" Category="Contains" />
+    <Link Source="@5" Target="@19" Category="Contains" />
+    <Link Source="@7" Target="(@1 @2 @6 Member=ID)" Category="Contains" Bounds="-9184.3466796875,-10013.4287109375,24.2177734375,135.1982421875" />
+    <Link Source="@7" Target="(@1 @2 @6 Member=Label)" Category="Contains" Bounds="-9184.3466796875,-9961.1083984375,24.2177734375,82.8779296875" />
+    <Link Source="@7" Target="@20" Category="Contains" Bounds="-9132.84342697095,-9901.47349398535,20.4486740111934,23.2430252353515" />
+    <Link Source="@8" Target="@13" Category="Contains" />
+    <Link Source="@9" Target="(@1 @2 Type=IPluginContext Member=FileExtensions)" Category="Contains" />
+    <Link Source="@9" Target="@18" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Enum" Label="Enum" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="Enums" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Aggregator" DataType="Microsoft.VisualStudio.GraphModel.AggregatorKind" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="ContainsChildren" Label="Contains Children" DataType="System.Boolean" Aggregator="Or" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="MergableData" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(d2f5b62f-072d-43af-8f9b-13334529b676.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=DGMLGenerator.Plugin.Definition" />
+    <Alias n="3" Id="(@1 @2 Type=ICodeProcessor)" />
+    <Alias n="4" Id="(@1 @2 Type=IDGMLBuilder)" />
+    <Alias n="5" Id="(@1 @2 Type=ILink)" />
+    <Alias n="6" Id="Type=INode" />
+    <Alias n="7" Id="(@1 @2 @6)" />
+    <Alias n="8" Id="(@1 @2 Type=IPlugin)" />
+    <Alias n="9" Id="(@1 @2 Type=IPluginContext)" />
+    <Alias n="10" Id="(@1 @2 Type=LinkType)" />
+    <Alias n="11" Id="Type=NodeType" />
+    <Alias n="12" Id="(@1 @2 @11)" />
+    <Alias n="13" Id="(@1 @2 Type=IPlugin Member=(Name=SetInfo OverloadingParameters=[@9]))" />
+    <Alias n="14" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.7.2/mscorlib.dll" />
+    <Alias n="15" Id="(@1 @2 Type=IDGMLBuilder Member=(Name=GetLink OverloadingParameters=[(@14 Namespace=System Type=String)]))" />
+    <Alias n="16" Id="(@1 @2 Type=IDGMLBuilder Member=(Name=GetNode OverloadingParameters=[(@14 Namespace=System Type=String)]))" />
+    <Alias n="17" Id="(@1 @2 Type=ICodeProcessor Member=(Name=ProcessFile OverloadingParameters=[(@14 Namespace=System Type=String),@4]))" />
+    <Alias n="18" Id="(@1 @2 Type=IPluginContext Member=CodeProcessor)" />
+    <Alias n="19" Id="(@1 @2 Type=ILink Member=LinkType)" />
+    <Alias n="20" Id="(@1 @2 @6 Member=NodeType)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="d2f5b62f-072d-43af-8f9b-13334529b676.OutputPathUri" Value="file:///D:/Mijn Projecten/Software/Git Hub/DGML Generator/DGML Generator Plugin Definition/bin/Debug/DGMLPluginDefinition.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

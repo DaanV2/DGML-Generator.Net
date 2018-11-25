@@ -7,8 +7,8 @@
     <ProjectGuid>{D2F5B62F-072D-43AF-8F9B-13334529B676}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DGML_Generator_Plugin_Definition</RootNamespace>
-    <AssemblyName>DGML Generator Plugin Definition</AssemblyName>
+    <RootNamespace>DGMLGenerator.Plugin.Definition</RootNamespace>
+    <AssemblyName>DGMLPluginDefinition</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,10 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerators\Enumerators.cs" />
+    <Compile Include="Interfaces\ICodeProcessor.cs" />
+    <Compile Include="Interfaces\IDGMLBuilder.cs" />
+    <Compile Include="Interfaces\Ilink.cs" />
+    <Compile Include="Interfaces\INode.cs" />
+    <Compile Include="Interfaces\IPlugin.cs" />
+    <Compile Include="Interfaces\IPluginContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Overview.cd" />
+    <None Include="Overview.dgml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

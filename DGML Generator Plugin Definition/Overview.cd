@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.String" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="DGMLGenerator.Plugin.Definition.ICodeProcessor" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Interfaces\ICodeProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DGMLGenerator.Plugin.Definition.IDGMLBuilder" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDGMLBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DGMLGenerator.Plugin.Definition.ILink" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\Ilink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LinkType" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="DGMLGenerator.Plugin.Definition.INode" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NodeType" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="DGMLGenerator.Plugin.Definition.IPlugin" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DGMLGenerator.Plugin.Definition.IPluginContext">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPluginContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CodeProcessor" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="FileExtensions" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Enum Name="DGMLGenerator.Plugin.Definition.LinkType" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerators\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DGMLGenerator.Plugin.Definition.NodeType" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAIgAAAEAAAAIAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Enumerators\Enumerators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
