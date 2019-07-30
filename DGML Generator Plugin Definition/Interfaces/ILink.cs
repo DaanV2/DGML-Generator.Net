@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    public partial class Node
+    public interface ILink
     {
         ///TODO add description <summary></summary>
-        public string ID { get; set; }
+        string Label { get; set; }
 
         ///TODO add description <summary></summary>
-        public string Label { get; set; }
+        LinkType LinkType { get; set; }
 
         ///TODO add description <summary></summary>
-        public NodeType NodeType { get; set; }
+        string ID { get; set; }
+
+        ///TODO add description <summary></summary>
+        string IDNode1 { get; set; }
+
+        ///TODO add description <summary></summary>
+        string IDNode2 { get; set; }
     }
 }

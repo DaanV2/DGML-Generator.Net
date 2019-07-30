@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Link\Link - Initialize.cs" />
-    <Compile Include="Classes\Link\Link - Properties.cs" />
+    <Compile Include="Classes\Link\Link - ILink.cs" />
     <Compile Include="Classes\Link\Link - Variables.cs" />
     <Compile Include="Classes\Node\Node - Initialize.cs" />
     <Compile Include="Classes\Node\Node - Properties.cs" />
@@ -86,6 +86,8 @@
     <Compile Include="Enumerators\Enumerators.cs" />
     <Compile Include="Interfaces\ICodeProcessor.cs" />
     <Compile Include="Interfaces\IDGMLBuilder.cs" />
+    <Compile Include="Interfaces\ILink.cs" />
+    <Compile Include="Interfaces\INode.cs" />
     <Compile Include="Interfaces\IPlugin.cs" />
     <Compile Include="Interfaces\IPluginContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -23,12 +23,11 @@ using System.Threading.Tasks;
 using ConfigHandling;
 using DGMLGenerator.Plugin.Definition;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
     public static partial class CodeProcessorsCollector
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="Filepath"></param>
         /// <param name="builder"></param>
         public static void ProcessFile(string Filepath, IDGMLBuilder builder)
@@ -41,7 +40,7 @@ namespace DGMLGenerator
             }
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public static void LoadPlugins()
         {
             PluginSettings pluginSettings = ConfigMapper.Get<PluginSettings>();
@@ -67,7 +66,7 @@ namespace DGMLGenerator
             LoadTypes();
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public static void LoadTypes()
         {
 #if !DEBUG
@@ -97,7 +96,7 @@ namespace DGMLGenerator
 #endif
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="contexts"></param>
         public static void LoadTypes(List<IPluginContext> contexts)
         {

@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using DGMLGenerator.Plugin.Definition;
 using ThreadSafeDictionary;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
     public partial class DGMLBuilder
     {
-        ThreadSafeDictionary<string, Link> Links { get; set; }
-        ThreadSafeDictionary<string, Node> Nodes { get; set; }
+        ///TODO add description <summary></summary>
+        public ThreadSafeDictionary<string, Link> Links { get; set; }
+
+        ///TODO add description <summary></summary>
+        public ThreadSafeDictionary<string, Node> Nodes { get; set; }
     }
 }

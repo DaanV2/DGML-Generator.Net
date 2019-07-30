@@ -6,10 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ConfigHandling;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
-    /// <summary>TODO add description for class: PluginSettings</summary>
+    /// <summary>//TODO add description for class: PluginSettings</summary>
 	[Serializable]
     public partial class PluginSettings : Config
     {

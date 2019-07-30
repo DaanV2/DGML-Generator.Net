@@ -5,12 +5,40 @@ using System.Text;
 using System.Threading.Tasks;
 using DGMLGenerator.Plugin.Definition;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
     public partial class DGMLBuilder : IDGMLBuilder
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        public void Add(params Node[] Nodes)
+        {
+            foreach (Node N in Nodes)
+                this.Nodes[N.ID] = N;
+        }
+
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        public void Add(List<Node> Nodes)
+        {
+            throw new NotImplementedException();
+        }
+
+        ///TODO add description <summary></summary>
+        /// <param name="Links"></param>
+        public void Add(params Link[] Links)
+        {
+            throw new NotImplementedException();
+        }
+
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        public void Add(List<Link> Nodes)
+        {
+            throw new NotImplementedException();
+        }
+
+        ///TODO add description <summary></summary>
         /// <param name="ID"></param>
         /// <returns></returns>
         public Link GetLink(string ID)
@@ -21,7 +49,7 @@ namespace DGMLGenerator
             return this.Links[ID];
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="ID"></param>
         /// <returns></returns>
         public Node GetNode(string ID)
@@ -32,14 +60,14 @@ namespace DGMLGenerator
             return this.Nodes[ID];
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="L"></param>
         public void SetLink(Link L)
         {
             this.Links[L.ID] = L;
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="N"></param>
         public void SetNode(Node N)
         {

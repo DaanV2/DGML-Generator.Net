@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator.Plugin.Definition
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO add description for class: Link</summary>
+    /// <summary>//TODO add description for class: Link</summary>
 	[Serializable]
     public partial class Link
     {
@@ -21,14 +20,14 @@ namespace DGMLGenerator.Plugin.Definition
             this.IDNode2 = string.Empty;
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="ID"></param>
         public Link(string ID) : this()
         {
             this.ID = ID;
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="IDNode1"></param>
         /// <param name="IDNode2"></param>
         /// <param name="Label"></param>
@@ -42,7 +41,7 @@ namespace DGMLGenerator.Plugin.Definition
             this.IDNode2 = IDNode2;
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="Node1"></param>
         /// <param name=""></param>
         /// <param name="Label"></param>

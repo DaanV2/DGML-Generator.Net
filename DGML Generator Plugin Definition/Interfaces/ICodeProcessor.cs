@@ -21,10 +21,10 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public interface ICodeProcessor
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="Filepath"></param>
         /// <param name="builder"></param>
         void ProcessFile(string Filepath, IDGMLBuilder builder);

@@ -4,24 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator.Plugin.Definition
 namespace DGMLGenerator.Plugin.Definition
 {
-    public partial class Link
+    public partial class Link : ILink
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public string Label { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public LinkType LinkType { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public string ID { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public string IDNode1 { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         public string IDNode2 { get; set; }
     }
 }

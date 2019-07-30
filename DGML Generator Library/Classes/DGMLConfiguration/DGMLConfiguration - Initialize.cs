@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator.Classes.DGMLConfiguration
-namespace DGMLGenerator.Classes.DGMLConfiguration
+namespace DGMLGenerator
 {
-    /// <summary>TODO add description for class: DGMLConfiguration</summary>
+    /// <summary>//TODO add description for class: DGMLConfiguration</summary>
 	[Serializable]
     public partial class DGMLConfiguration
     {

@@ -21,10 +21,9 @@ using System.Threading.Tasks;
 using DGMLGenerator.Plugin.Definition;
 using ThreadSafeDictionary;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
-    /// <summary>TODO add description for class: CodeProcessors</summary>
+    /// <summary>//TODO add description for class: CodeProcessors</summary>
     public static partial class CodeProcessorsCollector
     {
         /// <summary>Creates a new instance of <see cref="CodeProcessors"/></summary>

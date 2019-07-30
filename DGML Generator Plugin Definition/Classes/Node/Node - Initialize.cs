@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator.Plugin.Definition
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO add description for class: Node</summary>
+    /// <summary>//TODO add description for class: Node</summary>
 	[Serializable]
     public partial class Node
     {
@@ -25,7 +24,7 @@ namespace DGMLGenerator.Plugin.Definition
             this.ID = ID;
         }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="ID"></param>
         /// <param name="Label"></param>
         /// <param name="NodeType"></param>

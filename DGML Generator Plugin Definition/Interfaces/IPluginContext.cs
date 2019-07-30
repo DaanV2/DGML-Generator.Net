@@ -21,13 +21,13 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public interface IPluginContext
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         List<string> FileExtensions { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         ICodeProcessor CodeProcessor { get; set; }
     }
 }

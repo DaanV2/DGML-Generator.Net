@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator.Classes.DGMLConfiguration
-namespace DGMLGenerator.Classes.DGMLConfiguration
+namespace DGMLGenerator
 {
     public partial class DGMLConfiguration
     {

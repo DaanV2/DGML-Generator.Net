@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DGMLGenerator
+namespace DGMLGenerator.Plugin.Definition
 {
-    public partial class PluginSettings
+    ///TODO add description <summary></summary>
+    public interface INode
     {
         ///TODO add description <summary></summary>
-        public string PluginFolder { get; set; }
+        string ID { get; set; }
 
         ///TODO add description <summary></summary>
-        public SearchOption SearchOptions { get; set; }
+        string Label { get; set; }
 
         ///TODO add description <summary></summary>
-        public string SearchPattern { get; set; }
+        NodeType NodeType { get; set; }
     }
 }

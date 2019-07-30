@@ -21,10 +21,10 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public interface IPlugin
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <returns></returns>
         List<IPluginContext> GetIPluginContext();
     }

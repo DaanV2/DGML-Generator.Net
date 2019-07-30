@@ -19,7 +19,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
     public static partial class CodeProcessorsCollector

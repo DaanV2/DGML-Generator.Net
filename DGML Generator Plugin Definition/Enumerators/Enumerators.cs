@@ -21,31 +21,31 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public enum LinkType
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Child,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Call
     }
 
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public enum NodeType
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Method,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Property,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Field,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Class,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Structure,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Object,
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Namespace
     }
 }

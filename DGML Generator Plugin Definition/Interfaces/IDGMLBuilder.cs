@@ -21,20 +21,36 @@ using System.Threading.Tasks;
 
 namespace DGMLGenerator.Plugin.Definition
 {
-    /// <summary>TODO</summary>
+    ///TODO add description <summary></summary>
     public interface IDGMLBuilder
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        void Add(params Node[] Nodes);
+
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        void Add(List<Node> Nodes);
+
+        ///TODO add description <summary></summary>
+        /// <param name="Links"></param>
+        void Add(params Link[] Links);
+
+        ///TODO add description <summary></summary>
+        /// <param name="Nodes"></param>
+        void Add(List<Link> Nodes);
+
+        ///TODO add description <summary></summary>
         Node GetNode(string ID);
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="N"></param>
         void SetNode(Node N);
         
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         Link GetLink(string ID);
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         /// <param name="N"></param>
         void SetLink(Link L);
     }

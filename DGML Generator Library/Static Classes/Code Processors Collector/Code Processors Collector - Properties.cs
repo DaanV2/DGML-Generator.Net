@@ -22,15 +22,14 @@ using System.Threading.Tasks;
 using DGMLGenerator.Plugin.Definition;
 using ThreadSafeDictionary;
 
-//TODO prune namespace: DGMLGenerator
 namespace DGMLGenerator
 {
     public static partial class CodeProcessorsCollector
     {
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         static public ThreadSafeDictionary<string, ICodeProcessor> CodeProcessors { get; set; }
 
-        /// <summary>TODO</summary>
+        ///TODO add description <summary></summary>
         static public List<Assembly> Plugins { get; set; }
     }
 }
